@@ -3,7 +3,8 @@ import { useTranslation } from 'react-i18next';
 
 import type { FC } from 'react';
 import DiscordWidget from '../../components/common/DiscordWidget';
-// Background images removed
+import GrungeImageMask from '../../components/common/GrungeImageMask';
+import raidScheduleImage from '../../assets/images/raid-schedule.jpg';
 
 interface NextEvent {
   name: string;
@@ -101,19 +102,56 @@ const Dashboard: FC = () => {
           <div className="w-1 h-8 bg-orange-500 rounded-full"></div>
           <h2 className="text-3xl font-bold text-white">{t('dashboard.home')}</h2>
         </div>
-        <div className="bg-zinc-800/60 backdrop-blur-sm rounded-xl p-6 border border-zinc-700/50">
-          <div className="flex items-center space-x-3 mb-4">
+        <div className="bg-zinc-800/60 backdrop-blur-sm rounded-xl p-8 border border-zinc-700/50">
+          <div className="flex items-center space-x-3 mb-8">
             <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
-            <h3 className="text-xl font-bold text-white">{t('dashboard.raidSchedule')} - HARDCODED EXAMPLE</h3>
+            <h3 className="text-2xl font-bold text-white">{t('dashboard.raidSchedule')} - HARDCODED EXAMPLE</h3>
           </div>
-          <div className="space-y-3">
-            <div className="flex justify-between items-center">
-              <span className="text-gray-400">{t('dashboard.allianceRaids')}</span>
-              <span className="text-white font-semibold">{t('dashboard.allianceSchedule')}</span>
+          
+          <div className="flex flex-col lg:flex-row gap-8 items-center">
+            {/* Raid Schedule Content */}
+            <div className="w-full lg:w-7/10 space-y-6">
+              <div className="bg-zinc-700/40 rounded-lg p-6 border border-orange-500/20">
+                <div className="flex items-center justify-between mb-2">
+                  <div className="flex items-center space-x-2">
+                    <span className="text-yellow-400 text-xl">☀️</span>
+                    <span className="text-gray-300 font-medium">{t('dashboard.allianceRaids')}</span>
+                  </div>
+                  <span className="text-white font-bold bg-orange-500/20 px-3 py-1 rounded-full text-sm w-80 text-center inline-block">
+                    {t('dashboard.allianceSchedule')}
+                  </span>
+                </div>
+                <p className="text-sm text-gray-400">Breakfast raids for early birds</p>
+              </div>
+              
+              <div className="bg-zinc-700/40 rounded-lg p-6 border border-red-500/20">
+                <div className="flex items-center justify-between mb-2">
+                  <div className="flex items-center space-x-2">
+                    <span className="text-red-400 text-xl">⚔️</span>
+                    <span className="text-gray-300 font-medium">{t('dashboard.guildRaids')}</span>
+                  </div>
+                  <span className="text-white font-bold bg-red-500/20 px-3 py-1 rounded-full text-sm w-80 text-center inline-block">
+                    {t('dashboard.guildSchedule')}
+                  </span>
+                </div>
+                <p className="text-sm text-gray-400">Evening guild adventures</p>
+              </div>
             </div>
-            <div className="flex justify-between items-center">
-              <span className="text-gray-400">{t('dashboard.guildRaids')}</span>
-              <span className="text-white font-semibold">{t('dashboard.guildSchedule')}</span>
+            
+            {/* Image with Brush Mask*/}
+            <div className="w-full lg:w-3/10 flex justify-center">
+              <GrungeImageMask 
+                className="w-48 h-48 lg:w-76 lg:h-76"
+                withGlow={true}
+                glowColor="rgba(255, 165, 0, 0.4)"
+                glowOpacity={0.3}
+              >
+                <img 
+                  src={raidScheduleImage}
+                  alt="Raid Schedule"
+                  className="w-full h-full object-cover scale-110 translate-y-10"
+                />
+              </GrungeImageMask>
             </div>
           </div>
         </div>
