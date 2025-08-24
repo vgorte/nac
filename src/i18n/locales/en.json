@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "home": "Home",
+    "builds": "Builds",
+    "events": "Events",
+    "resources": "Resources",
+    "members": "Members"
+  },
+  "header": {
+    "guildName": "Ninja Asura Club",
+    "joinDiscord": "Join Discord"
+  },
+  "dashboard": {
+    "home": "Home",
+    "raidSchedule": "Raid Schedule",
+    "allianceRaids": "Alliance Breakfast Raids",
+    "guildRaids": "Guild Raids",
+    "nextEvent": "Next Event",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "allianceSchedule": "Monday - Friday 8:45 - 10:45 CEST",
+    "guildSchedule": "Thursday & Saturday 20:00 - 22:00 CEST"
+  },
+  "discord": {
+    "serverTitle": "Discord Server",
+    "totalMembers": "Total Members",
+    "onlineNow": "Online Now",
+    "totalMembersApprox": "Total Members (approx.)",
+    "onlineNowApprox": "Online Now (approx.)",
+    "joinDiscord": "Join Discord"
+  },
+  "events": {
+    "allianceBreakfastRaid": "Alliance Breakfast Raid",
+    "guildRaid": "Guild Raid",
+    "noUpcomingEvents": "No upcoming events"
+  },
+  "builds": {
+    "title": "WvW Zerg Builds",
+    "description": "Recommended builds for large-scale WvW zerg warfare and tactical gameplay.",
+    "snowCrows": {
+      "title": "SnowCrows",
+      "elementalistBuilds": "Elementalist Builds",
+      "mesmerBuilds": "Mesmer Builds",
+      "necromancerBuilds": "Necromancer Builds", 
+      "engineerBuilds": "Engineer Builds",
+      "rangerBuilds": "Ranger Builds",
+      "thiefBuilds": "Thief Builds",
+      "guardianBuilds": "Guardian Builds",
+      "revenantBuilds": "Revenant Builds",
+      "warriorBuilds": "Warrior Builds"
+    }
+  },
+  "memberList": {
+    "title": "Guild Members",
+    "description": "Complete list of all NAC WvW guild members with ranks and join dates.",
+    "loading": "Loading member list...",
+    "error": "Error loading data",
+    "search": "Search",
+    "searchPlaceholder": "Search by name...",
+    "totalMembers": "Total: {{count}} members",
+    "noResults": "No results found",
+    "columns": {
+      "discord": "Discord",
+      "accountName": "Account Name",
+      "rank": "Rank",
+      "entryDate": "Join Date"
+    },
+    "ranks": {
+      "anführer": "Leader",
+      "offizier": "Officer",
+      "veteran": "Veteran",
+      "ninja": "Ninja",
+      "zweitaccount": "Alt Account"
+    }
+  },
+  "resources": {
+    "title": "Resources",
+    "description": "Useful links, tools, and community resources."
+  },
+  "language": {
+    "switch": "Switch Language",
+    "german": "Deutsch",
+    "english": "English"
+  },
+  "members": {
+    "title": "Member List",
+    "loading": "Loading members...",
+    "privacyNote": "This is a test visualization - discord bot required otherwise",
+    "username": "Username",
+    "rank": "Rank",
+    "joinDate": "Join Date",
+    "noRole": "No Role",
+    "totalCount": "{{count}} members total"
+  },
+  "notFound": {
+    "title": "Waypoint Not Found!",
+    "subtitle": "Looks like this waypoint has been contested by the enemy!",
+    "description": "The page you're looking for doesn't exist. Maybe it got zerged down in WvW?",
+    "backHome": "Return to starting page",
+    "tip": "Pro tip: Use the navigation to find your way back to safety!"
+  }
+}

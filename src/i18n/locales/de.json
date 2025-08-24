@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "builds": "Builds",
+    "events": "Events",
+    "resources": "Ressourcen",
+    "members": "Mitglieder"
+  },
+  "header": {
+    "guildName": "Ninja Asura Club",
+    "joinDiscord": "Discord beitreten"
+  },
+  "dashboard": {
+    "home": "Startseite",
+    "raidSchedule": "Raid-Zeitplan",
+    "allianceRaids": "Allianz Frühstücks-Raids",
+    "guildRaids": "Gilden-Raids",
+    "nextEvent": "Nächstes Event",
+    "today": "Heute",
+    "tomorrow": "Morgen",
+    "monday": "Montag",
+    "tuesday": "Dienstag",
+    "wednesday": "Mittwoch",
+    "thursday": "Donnerstag",
+    "friday": "Freitag",
+    "saturday": "Samstag",
+    "sunday": "Sonntag",
+    "allianceSchedule": "Montag - Freitag 8:45 - 10:45 CEST",
+    "guildSchedule": "Donnerstag & Samstag 20:00 - 22:00 CEST"
+  },
+  "discord": {
+    "serverTitle": "Discord Server",
+    "totalMembers": "Mitglieder gesamt",
+    "onlineNow": "Jetzt online",
+    "totalMembersApprox": "Mitglieder gesamt (ca.)",
+    "onlineNowApprox": "Jetzt online (ca.)",
+    "joinDiscord": "Discord beitreten"
+  },
+  "events": {
+    "allianceBreakfastRaid": "Allianz Frühstücks-Raid",
+    "guildRaid": "Gilden-Raid",
+    "noUpcomingEvents": "Keine anstehenden Events"
+  },
+  "builds": {
+    "title": "WvW Zerg Builds",
+    "description": "Empfohlene Builds für WvW-Zerg-Kämpfe und taktisches Gameplay.",
+    "snowCrows": {
+      "title": "SnowCrows",
+      "elementalistBuilds": "Elementarmagier-Builds",
+      "mesmerBuilds": "Mesmer-Builds", 
+      "necromancerBuilds": "Nekromant-Builds",
+      "engineerBuilds": "Ingenieur-Builds",
+      "rangerBuilds": "Waldläufer-Builds",
+      "thiefBuilds": "Dieb-Builds",
+      "guardianBuilds": "Wächter-Builds",
+      "revenantBuilds": "Widergänger-Builds",
+      "warriorBuilds": "Krieger-Builds"
+    }
+  },
+  "memberList": {
+    "title": "Gildenmitglieder",
+    "description": "Vollständige Liste aller NAC WvW Gildenmitglieder mit Rängen und Beitrittsterminen.",
+    "loading": "Lade Mitgliederliste...",
+    "error": "Fehler beim Laden",
+    "search": "Suchen",
+    "searchPlaceholder": "Suche nach Namen...",
+    "totalMembers": "Gesamt: {{count}} Mitglieder",
+    "noResults": "Keine Ergebnisse gefunden",
+    "columns": {
+      "discord": "Discord",
+      "accountName": "Account Name",
+      "rank": "Rang",
+      "entryDate": "Beitrittsdatum"
+    },
+    "ranks": {
+      "anführer": "Anführer",
+      "offizier": "Offizier",
+      "veteran": "Veteran",
+      "ninja": "Ninja",
+      "zweitaccount": "Zweitaccount"
+    }
+  },
+  "resources": {
+    "title": "Ressourcen",
+    "description": "Nützliche Links, Tools und Community-Ressourcen."
+  },
+  "language": {
+    "switch": "Sprache wechseln",
+    "german": "Deutsch",
+    "english": "English"
+  },
+  "members": {
+    "title": "Mitgliederliste",
+    "loading": "Lade Mitglieder...",
+    "privacyNote": "Das ist eine Test-Visualisierung - Discord-Bot benötigt",
+    "username": "Benutzername",
+    "rank": "Rang",
+    "joinDate": "Beitrittsdatum",
+    "noRole": "no role",
+    "totalCount": "{{count}} Mitglieder insgesamt"
+  },
+  "notFound": {
+    "title": "Wegpunkt nicht gefunden!",
+    "subtitle": "Sieht aus als wäre dieser Wegpunkt vom Feind umkämpft!",
+    "description": "Die Seite, die du suchst, existiert nicht. Vielleicht wurde sie im WvW platt gemacht?",
+    "backHome": "Zurück zur Startseite",
+    "tip": "Profi-Tipp: Nutze die Navigation um sicher zurückzufinden!"
+  }
+}
